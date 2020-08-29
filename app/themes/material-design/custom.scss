@@ -4,7 +4,7 @@
         background: url('../images/menu-vert.png') repeat top left;
     }
     .nav-right {
-        a:hover svg{
+        a:hover svg {
             fill: rgba(255, 255, 255, .7);
             stroke: rgba(255, 255, 255, .7);
         }
@@ -13,8 +13,8 @@
             stroke: rgba(255, 255, 255, .5);
         }
         .active svg {
-            fill: #A83F60;
-            stroke:#A83F60;
+            fill: $red-frambuesa;
+            stroke: $red-frambuesa;
         }
     }
 }
@@ -41,5 +41,5 @@ tg-project-menu {
 //// OVERRIDE
 
 .topnav-dropdown-wrapper .counter {
-    color: #A83F60;
+    color: $red-frambuesa;
 }

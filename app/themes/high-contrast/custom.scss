@@ -16,26 +16,26 @@ tg-project-menu {
     .nav-right {
         a:hover,
         a.active {
-            background: white;
-            color: black;
-            svg{
-                fill: black;
-                stroke:black;
+            background: $white;
+            color: $black;
+            svg {
+                fill: $black;
+                stroke: $black;
             }
         }
         svg {
-            fill: white;
-            stroke: white;
+            fill: $white;
+            stroke: $white;
         }
         .active svg {
-            fill: black;
-            stroke:black;
+            fill: $black;
+            stroke: $black;
         }
     }
 }
 
 .button-gray {
-    background: black;
+    background: $black;
 }
 .more-attachments {
     span {
@@ -55,10 +55,10 @@ tg-project-menu {
 .ticket-detail-settings .item-block,
 .ticket-detail-settings .item-unblock,
 .ticket-detail-settings .promote-button {
-    background: black;
-    color: white;
+    background: $black;
+    color: $white;
     * {
-        color: white;
+        color: $white;
     }
 }
 
@@ -79,29 +79,29 @@ a,
 .menu-tertiary {
     ul li a.active,
     ul li a:hover {
-        background: black;
-        color: white;
+        background: $black;
+        color: $white;
     }
 }
 
 .lb-user-list .user-list-item.is-active {
-    background: grey;
-    color: white;
+    background: $gray;
+    color: $white;
     * {
-        color: white;
+        color: $white;
     }
 }
 
 .taskboard-actions {
-    background: grey;
+    background: $gray;
 }
 
 .card {
-    border: 1px solid black;
+    border: 1px solid $black;
 }
 
 //// OVERRIDE
 
 .topnav-dropdown-wrapper .counter {
-    color: black;
+    color: $black;
 }

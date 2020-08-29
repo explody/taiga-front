@@ -23,9 +23,9 @@ tg-project-menu {
     background-color: $primary-dark;
     background-image: url('../images/menu.png');
 }
-.menu-tertiary  ul li a,
-.menu-tertiary  ul li a:hover {
-    color: white;
+.menu-tertiary ul li a,
+.menu-tertiary ul li a:hover {
+    color: $white;
 }
 
 .button-green {
@@ -42,7 +42,8 @@ tg-project-menu {
 .button-red {
     @include font-type(light);
 }
-.button-green, .button-gray {
+.button-green,
+.button-gray {
     &:hover,
     &.active,
     &:visited:hover {
